@@ -22,6 +22,7 @@ set CurrMinute=%TIME:~3,2%
 set CurrSecond=%TIME:~6,2%
 
 set formattedTime=%CurrHour%%CurrMinute%%CurrSecond%
+set formattedTime=%formattedTime: =%
 
 
 set foldername=%formattedTime%_%formattedDate%
